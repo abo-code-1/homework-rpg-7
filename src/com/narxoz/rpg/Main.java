@@ -33,7 +33,7 @@ public class Main {
         Hero kael   = new Hero("Kael",   100, 22,  8, new BalancedStrategy());
         List<Hero> heroes = List.of(thoren, mira, kael);
 
-        DungeonBoss boss = new DungeonBoss("The Hollow Lich", 600, 25, 8, publisher);
+        DungeonBoss boss = new DungeonBoss("The Hollow Lich", 280, 22, 8, publisher);
 
         publisher.register(new BattleLogger());
         publisher.register(new HeroStatusMonitor(heroes));
